@@ -2,6 +2,20 @@
     width: 300px;
 }
 
+.organizer {
+    width: 150px;
+    border-radius: 50%;
+}
+
+h3.organizer {
+    width: 100%;
+}
+
+h3.organizer a {
+    font-size: 1.8rem;
+    color: #f6aa08!important;
+}
+
 .sheet {
     padding-top: 32px;
     width: 300px;
@@ -12,4 +26,12 @@
 .text-big {
     font-size: 2.5rem;
     margin-left: 0.8rem;
+}
+
+h3 a {
+    text-decoration: none;
+}
+
+#main a {
+    color: rgba(246, 170, 8, .8);
 }
