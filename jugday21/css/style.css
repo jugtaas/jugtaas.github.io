@@ -35,3 +35,12 @@ h3 a {
 #main a {
     color: rgba(246, 170, 8, .8);
 }
+
+.long-abstract {
+    height: 50px;
+    overflow-y: hidden;
+}
+
+.long-abstract:hover {
+    height: auto;
+}
