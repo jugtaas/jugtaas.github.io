@@ -38,7 +38,19 @@ h3 a {
 
 .long-abstract {
     height: 50px;
-    overflow-y: hidden;
+    overflow: hidden;
+}
+
+.long-abstract p {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.long-abstract p:hover {
+    white-space: normal;
 }
 
 .long-abstract:hover {
