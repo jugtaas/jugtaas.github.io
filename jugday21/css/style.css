@@ -56,3 +56,8 @@ h3 a {
 .long-abstract:hover {
     height: auto;
 }
+
+#location a {
+    color: white;
+    text-decoration: none;
+}
